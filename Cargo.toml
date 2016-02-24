@@ -1,0 +1,9 @@
+[package]
+name = "rustpwhash"
+version = "0.1.0"
+authors = ["Tim Glabisch <tim.glabisch@sensiolabs.de>"]
+
+[dependencies]
+pwhash = "0.1"
+regex = "0.1.8"
+rand = "0.3"
