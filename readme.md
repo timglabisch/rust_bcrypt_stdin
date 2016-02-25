@@ -15,7 +15,7 @@ outputs:
 
 ```
 INSERT INTO users (pw, salt) VALUES $2y$07$Ww7o4t7xxFs3p5mM9qu59eXIqm.EWywd7QTOWySkD38TaqSipdsly Ww7o4t7xxFs3p5mM9qu59n
-``
+```
 
 for every line in the input stream rustpwhash will generate a bcrypt hash and and the hashed pw.
 
